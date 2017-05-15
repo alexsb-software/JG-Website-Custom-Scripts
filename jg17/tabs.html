@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>tabs</title>
+    <link rel="stylesheet" type="text/css" href="css/tabs.css">
+    <script src="js/tabs.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="tab_container" >
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1"><i style="font-size:24px" class="fa">&#xf19d;</i><span>Just Graduated'17</span></label>
+
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2"><i style="font-size:24px" class="fa">&#xf279;</i><span>Event Content</span></label>
+
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3"><i style="font-size:24px" class="fa">&#xf201;</i><span>Facts</span></label>
+
+    <input id="tab4" type="radio" name="tabs">
+    <label for="tab4"><i style="font-size:24px" class="fa">&#xf073;</i><span>Schedule</span></label>
+
+    <input id="tab5" type="radio" name="tabs">
+    <label for="tab5"><i style="font-size:24px" class="fa">&#xf2bd;</i><span>Speakers</span></label>
+
+    <section id="content1" class="tab-content">
+        <!--JUST GRADUATED'17 PICTURES TAB************************************************************** -->
+        <div class="container">
+            <div class="page-header text-center"></div>
+            <ul class="timeline">
+                <!--left col /row 1 -->
+                <li>
+                    <div class="timeline-badge primary">
+                        <a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i>
+                        </a>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <img class="img-responsive" src="img/jg17.jpg"/></div>
+                        <div class="timeline-footer"></div>
+                    </div>
+                </li>
+
+                <!--right col /row 1-->
+                <li class="timeline-inverted">
+                    <div class="timeline-badge primary">
+                        <a>
+                            <i class="glyphicon glyphicon-record invert" rel="tooltip" id=""></i>
+                        </a>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <img class="img-responsive" src="img/c2.jpg"/></div>
+                        <div class="timeline-body">
+                            <p style=" color:#2B3856; font-weight:bold;">Research track represents the segment that can
+                                push our lives to the better. Through research, you can work on the demonstration of new
+                                systems that can open the doors to great technological breakthroughs. For me, it 's more
+                                pleasant and joyful to work on research projects more than being obligated to do a
+                                certain job and be constrained by certain limits.</p>
+                        </div>
+                        <div class="timeline-footer"></div>
+                    </div>
+                </li>
+
+                <!--right col / row2 -->
+                <li class="timeline-inverted">
+                    <div class="timeline-badge primary">
+                        <a>
+                            <i class="glyphicon glyphicon-record invert" rel="tooltip" id=""></i>
+                        </a>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <img class="img-responsive" src="img/c3.jpg"/>
+                        </div>
+                        <div class="timeline-body">
+                            <p style=" color:#2B3856; font-weight:bold;">Starting after graduation is a delusion,
+                                imagine that you are competing with 7000 engineer with the same skills and
+                                technicalities. You'll never have a chance to be selected for a good job. You should
+                                start while you are in the University, where you have plenty of time to work in
+                                projects, do civil activities and voluntary work. That's in addition to learning the
+                                needed technical skills that are not delivered in college.
+                            </p>
+                        </div>
+                        <div class="timeline-footer"></div>
+                    </div>
+                </li>
+
+                <!--left col /row 2-->
+                <li>
+                    <div class="timeline-badge primary">
+                        <a>
+                            <i class="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter"
+                               id=""></i>
+                        </a>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <img class="img-responsive" src="img/c1.jpg"" />
+                        </div>
+                        <div class="timeline-body">
+                            <p style=" color:#2B3856; font-weight:bold;">Two crucial skills freelancers must have are:
+                                self-learning and self-discipline. Nobody forces you to work or learn or gain
+                                experience. You set goals and stick to them no matter what. If you can't do that, you're
+                                doomed to fail before you even start."</p>
+                        </div>
+                        <div class="timeline-footer"></div>
+                    </div>
+                </li>
+
+                <li class="clearfix" style="float: none;"></li>
+            </ul>
+        </div>
+    </section>
+
+    <!--EVENT CONTENT TAB********************************************************************* -->
+    <section id="content2" class="tab-content">
+        <div class="container">
+
+            <div class="col-md-4">
+                <a class="btn btn-block btn-lg btn-amber" data-target="#mymodal">
+                    <i class="fa fa-cog fa-spin" id="icone_grande"></i> <br><br>
+                    <span class="texto_grande">
+                        <i class="fa fa-television"></i>
+                        Sessions
+                    </span>
+                </a>
+                <p></p>
+                <p></p>
+                <p style=" color:#2B3856; font-weight:bold;">Sessions include topics, presented by professionals, to
+                    give capture you with after college life and business markets and how to land the job you want, how
+                    to become an individual freelancer and get your startup rolling.</p>
+            </div>
+
+            <div class="col-md-4">
+                <a class="btn btn-block btn-lg btn-red" data-toggle="modal" data-target="#mymodal">
+                    <i class="glyphicon glyphicon-briefcase" id="icone_grande"></i> <br><br>
+                    <span class="texto_grande"><i class="fa fa-pencil-square-o"></i> Workshops</span></a>
+                <p></p>
+                <p></p>
+                <p style=" color:#2B3856; font-weight:bold;">Workshops give you hands on experience in developing your
+                    your soft skills ,writing the perfect CV and how to market yourself professionally by business
+                    professionals.</p>
+            </div>
+
+            <div class="col-md-4">
+                <a class="btn btn-block btn-lg btn-navyblue" data-toggle="modal" data-target="#mymodal">
+                    <i class="fa fa-users" id="icone_grande"></i> <br><br>
+                    <span class="texto_grande"><i style="font-size:24px" class="fa">&#xf2b5;</i> Mock Interviews</span></a>
+                <p></p>
+                <p></p>
+                <p style=" color:#2B3856; font-weight:bold;"> Mock Interview will be a good chance to help you practice
+                    real life interview situations.You will know how to ace you interviees and what the intervier wants
+                    from you. </p>
+            </div>
+        </div>
+
+    </section>
+    <!--FACTS TAB  **************************************************************************** -->
+    <section class="container" id="content3" class="tab-content">
+
+        <div id="myDiv">
+            <img src="img/c4.jpg" border="0" alt="Facts image">
+        </div>
+    </section>
+
+
+    <!--SCHEDULE TAB  *********************************************************************** -->
+
+    <section id="content4" class="tab-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="board">
+                    <div class="board-inner">
+                        <ul class="nav nav-tabs" id="myTab">
+                            <div class="liner"></div>
+                            <li><a href="#profile" data-toggle="tab" title="profile">
+                                 <span class="round-tabs one">
+                                     <i>5 July</i>
+                                 </span> </a>
+                            </li>
+
+                            <li><a href="#messages" data-toggle="tab" title="bootsnipp goodies">
+                                 <span class="round-tabs two">
+                                      <i>6 July</i>
+                                 </span> </a>
+                            </li>
+
+                            <li><a href="#settings" data-toggle="tab" title="blah blah">
+                                 <span class="round-tabs three">
+                                     <i>7 July</i>
+                                 </span> </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="profile">
+                            <div id="myDiv">
+                                <img src="img/d1.png" alt="d1" width="" height=""/>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="messages">
+                            <div id="myDiv">
+                                <img src="img/d2.png" alt="d2" width="" height=""/>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="settings">
+                            <div id="myDiv">
+                                <img src="img/d1.png" alt="d3" width="" height=""/>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--SPEAKERS TAB**************************************************************************** -->
+    <section id="content5" class="tab-content">
+        <iframe width="100%" height="450" src="http://alexsb.org/custom-scripts/edm-speakers/index.html" frameborder="0"
+                allowfullscreen></iframe>
+
+    </section>
+</div>
+
+</body>
+</html>
