@@ -158,7 +158,7 @@ svg {
 
 .slide:nth-child(1) .slide__bg {
     left: 0;
-    background-image: url("/jg17/img/p1.jpg");
+    background-image: url("../img/p1.jpg");
     
 }
 
@@ -178,7 +178,7 @@ svg {
 
 .slide:nth-child(2) .slide__bg {
     left: -50%;
-    background-image: url("/jg17/img/p2.jpg");
+    background-image: url("../img/p2.jpg");
 
 }
 
@@ -198,7 +198,7 @@ svg {
 
 .slide:nth-child(3) .slide__bg {
     left: -100%;
-    background-image: url("/jg17/img/p3.jpg");
+    background-image: url("../img/p3.jpg");
 }
 
 .slide:nth-child(3) .slide__overlay-path {
@@ -217,7 +217,7 @@ svg {
 
 .slide:nth-child(4) .slide__bg {
     left: -150%;
-    background-image: url("/jg17/img/p4.jpg");
+    background-image: url("../img/p4.jpg");
 }
 
 .slide:nth-child(4) .slide__overlay-path {
