@@ -5,7 +5,8 @@
 
 // JG17 webpage iframe height modification script
 window.onload = function () {
-    adjustHeight();
+    var x = document.getElementById("jg17-webpage-frame");
+    x.height = x.contentDocument.body.clientHeight;
 
     var object = x.contentDocument.getElementById("tab1");
     object.addEventListener("click", adjustHeight);
