@@ -206,7 +206,6 @@ span.round-tabs {
     font-size: 25px;
 }
 
-<<<<<<< HEAD
 span.round-tabs.one {
     color: #febe29;
     border: 3px solid #febe29;
@@ -225,9 +224,6 @@ li.active span.round-tabs.one {
     font-family: Arial, Helvetica, sans-serif;
 
 }
-=======
-
->>>>>>> editing schedule's circles
 
 span.round-tabs.two {
     color: #ffffff;
@@ -246,41 +242,10 @@ li.active span.round-tabs.two {
 
 }
 
-span.round-tabs.three {
-    color: #ffffff;
-<<<<<<< HEAD
-    border: 3px solid #F34235;
-    background: #F34235 !important;
-=======
-    border: 3px solid #2B3856;
-    background: #2B3856 !important;
->>>>>>> editing schedule's circles
-    font-size: 120%;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-li.active span.round-tabs.three {
-    background: #ffffff !important;
-<<<<<<< HEAD
-    border: 3px solid #F34235;
-    color: #F34235;
-=======
-    border: 3px solid #2B3856;
-    color: #2B3856;
->>>>>>> editing schedule's circles
-    font-size: 120%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 /*circle width relvant to the line */
 .nav-tabs > li {
     width: 20%;
-<<<<<<< HEAD
-    padding-left: 23%;
-=======
     padding-left: 31%;
->>>>>>> editing schedule's circles
 }
 
 /*anchor width*/
